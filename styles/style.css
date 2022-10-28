@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* imagen de fondo */
+body{
+    background-image: url(../assets/DOTA2.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/* barra de navegacion */
+header{
+    background-color: rgba(255, 0, 0, 0.603);
+    font-size: 20px; 
+}
+nav h1{
+    color: whitesmoke;
+    font-family: 'Bungee Shade', cursive;
+}
+nav ul{
+    justify-content: center;
+    text-align: center;   
+}
+nav ul li{ 
+    display: inline-block;
+    padding: 5px 20px;
+}
+nav ul li a{  
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Carter one';
+    font-size: 25px;
+}
+/* main */
+main{
+    text-align: center;
+    font-family: 'Carter one';
+    color: aliceblue;
+}
+/* footer */
+footer{
+    text-align:center;
+    font-family: 'Carter one';
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.603);
+    font-size: 20px; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
